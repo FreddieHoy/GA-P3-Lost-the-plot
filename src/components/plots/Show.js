@@ -2,7 +2,7 @@ import React from 'react'
 import axios from 'axios'
 import StarRatingComponent from 'react-star-rating-component'
 import ReactMapboxGl, { Marker, ZoomControl } from 'react-mapbox-gl'
-
+import icon from '../../assets/Carrot.png'
 
 const Map = ReactMapboxGl({
   accessToken: process.env.MAPBOX_TOKEN
@@ -189,7 +189,7 @@ class PlotsShow extends React.Component {
                 <Marker
                   coordinates={[this.state.plot.longitude, this.state.plot.latitude]}
                 >
-                  <img src={'../assets/Carrot.png'}
+                  <img src={icon}
                     height='50'
                     width='50'
                   />
