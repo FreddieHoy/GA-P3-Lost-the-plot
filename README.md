@@ -1,7 +1,5 @@
 # Project 3: Lost the Plot
 
-SEI42 collaborative project - Lost the plot
-
 The site:
 [Lost The Plot](lost-the-plot-sei42.herokuapp.com)
 
@@ -51,6 +49,7 @@ It was also my first group project that extensively uses Git to collaborate on t
 * Git
 * GitHub
 * react-mapbox
+* Mocha
 * Chai
 * supertest
 
@@ -74,6 +73,36 @@ It was also my first group project that extensively uses Git to collaborate on t
 * Plants
 * About
 
+## Approach Taken
+
+At the start of each day we had stand up to determine what we wanted to achieve.
+
+The whole project was done using git to collaborate on the work. We created a master branch for deployment. A development Branch which we merged with and a new brach every time we complete a tested task or feature with no bugs or errors.
+
+We started with the backend by using Super test, Mocha and Chai for test driven development. Super test creates API 'endpoints'. Chai creates a useful library for the tests and Mocha is used to run the tests using describe and it commands. The setting up the API from here was made much easier and there was less use of Insomnia.
+
+The Back end was set up using Express and mongoDB (noSQL) to write our models and store our data. MongoDB enabled us to seed data during the project that we had created ourselves.
+
+We connected the front end and using react. Done similarly to our when we consumed and API in our second project. The difference now being that we had learned many more packages to enhance the project, including react-mapbox, star-rating and toastify - which although it was not used it was a useful lesson for future work.
+
+
+# My work
+My personal achivements are:
+
+- Coming up with the Project idea.
+- The backend login and register routes on the backend.
+- including another API in the backend, fetching longitude and latitude from user postcodes.
+- Authentication back & front ends.
+- User distance away from Plot. (While logged in)
+- Our Plots page tab system Index / Map
+- Linking React-mapbox to search page and show detail pages.
+- Collecting data for Seeding.
+- The parallax homepage
+- Styling.
+
+
+# Site Visuals
+
 ### Parallax Home Page
 ![Homepage](https://user-images.githubusercontent.com/51379192/65058021-776ef800-d96b-11e9-9dec-05230d79f6dc.gif)
 
@@ -82,27 +111,6 @@ It was also my first group project that extensively uses Git to collaborate on t
 
 ### Get info on Suitable Plants to grow
 ![Plants](https://user-images.githubusercontent.com/51379192/65058106-9d949800-d96b-11e9-96a4-caa654f7ea74.gif)
-
-## ProjectLog
-
-| Day      | Task         |
-| ------------- |:-------------:|
-| **1**  | Project ideas, Designing models, drawing wireframe    |
-| **2**  | Testing and backend setup   |
-| **3**  | Front end, MVP achieved.  |
-| **4**  | Bugs, Styling, Additional features - Map, Plants page etc     |
-| **5**  | Bugs, Styling, Additional features - Distance away, sorting and filtering   |
-| **6**  | Bugs, and styling    |
-| **7**  | Deployment, presentation planning, ReadME    |
-
-## My work
-
-* Project idea
-* Parallax Home Page
-* Our Plots page tab system Index / Map
-* Mapping on Plots page and Individual Plots page
-* Extensive styling and design
-* Once Logged in User can see distance away from their location
 
 ## Challenges
 
@@ -166,7 +174,6 @@ calculateDistance(plot) {
 }
 ```
 
-
 ### Using React-mapbox
 
 A new feature which was learn't for this project using React-mapbox. The map on the index page has number of features including:
@@ -177,14 +184,48 @@ A new feature which was learn't for this project using React-mapbox. The map on 
 
 ![Plots Map](https://user-images.githubusercontent.com/51379192/65068765-2833c200-d981-11e9-8abb-a0281cc2d8a0.png)
 
+## ProjectLog
 
-### Moving Forward
+| Day      | Task         |
+| ------------- |:-------------:|
+| **1**  | Project ideas, Designing models, drawing wireframe    |
+| **2**  | Testing and backend setup   |
+| **3**  | Front end, MVP achieved.  |
+| **4**  | Bugs, Styling, Additional features - Map, Plants page etc     |
+| **5**  | Bugs, Styling, Additional features - Distance away, sorting and filtering   |
+| **6**  | Bugs, and styling    |
+| **7**  | Deployment, presentation planning, ReadME    |
+
+
+## THE BIG WINS
+
+- Successfully creating a fully RESTful API.
+- Doing it using Test Driven Development (TDD).
+- Including another API in the backend, fetching longitude and latitude from user postcodes.
+- User distance away from Plot. (While logged in)
+- Our Plots page tab system Index / Map
+- Linking React-mapbox to be part of of the search page.
+- The parallax homepage, I think is really cool.
+
+## What have I learned
+
+- How to use Git in a team.
+- Daily standup to determine goals and blockers is VERY useful.
+- Effective Team work - This was notably insightful for working in teams and with people with slightly different skills and backgrounds.
+- TDD
+- How to build and entire RESTful API.
+- A number of React packages.
+- Deployment using Heroku.
+
+## Moving Forward
 
 * Build in instant messaging as a feature.
 * A news Feed of latest comments, posts and changes to the Plant page
 * Add a gardening tip of the day.
 * I discovered that the home page parallax could be done using a package called react-lazy-hero.
 * Maybe add success story of people growing food in their gardens.
+
+---
 
 # Contact information
 
