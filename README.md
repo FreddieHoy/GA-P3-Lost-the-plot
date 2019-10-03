@@ -1,7 +1,7 @@
 # Project 3: Lost the Plot
 
 The site:
-[Lost The Plot](lost-the-plot-sei42.herokuapp.com)
+[Lost The Plot](https://lost-the-plot-sei42.herokuapp.com/#/)
 
 ## Collaborators
 
